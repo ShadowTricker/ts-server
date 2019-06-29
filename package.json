@@ -4,7 +4,7 @@
   "description": "node server of typescript",
   "main": "index.js",
   "scripts": {
-    "start": "supervisor -w ./src -e ts,js -x ts-node ./src/index.ts",
+    "start": "nodemon --watch ./src -e ts,js --exec ts-node ./src/index.ts",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
