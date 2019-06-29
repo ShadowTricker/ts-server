@@ -20,4 +20,4 @@
         -e extension     要监听的文件类型
         ---exec          运行的方式以及运行文件   
 
-> 5. 至于 `build`，则使用 `typescript` 的编译规则tsc来生成对应的js文件，具体的配置在 `tsconfig.json` 中。
+> 5. 至于 `build`，则使用 `typescript` 的编译规则 `tsc` 来生成对应的js文件，具体的配置在 `tsconfig.json` 中。
