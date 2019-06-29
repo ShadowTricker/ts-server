@@ -6,7 +6,7 @@ const app = express();
 
 app.use('/login', loginRouter);
 
-app.listen(4000, () => {
-    console.log('Server started...');
+app.listen(46400, () => {
+    console.log('Server started on port 46400...');
 });
 
